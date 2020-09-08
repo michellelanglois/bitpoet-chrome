@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BITPOET</title>
+    <script type="text/javascript" src="rita-full.min.js"></script>
+    <script type="text/javascript" src="compromise.min.js"></script>
+    <script type="text/javascript" src="dictionary.js"></script>
+    <script type="text/javascript" src="poem.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<div id="popup-default" class="popup-default" style="display:block">
+    <div class="popup-header">
+        <h1>BitPoet</h1>
+        <h2>Make some magic. Make a poem.</h2>
+    </div>
+    <div class="popup-text">
+        <p>Select specific text if you're feeling picky.</p>
+        <p>Or go wild and use the whole website.</p>
+    </div>
+    <div class="popup-buttons">
+        <div class="default-column">
+            <button id="free" class="btn-flat">Free verse</button>
+        </div>
+        <div class="default-column">
+            <button id="haiku" class="btn-flat">Haiku</button>
+        </div>
+        <div class="default-column">
+            <button id="limerick" class="btn-flat">Limerick</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="popup-poem" class="popup-poem" style="display:none">
+    <div class="poem-header">
+        <h2>Roses are red, violets are blue. <br> I like your style: here's a poem for you.</h2>
+    </div>
+    <div class="poem-text">
+        <p id="poem"></p>
+    </div>
+    <div class="poem-buttons">
+        <div class="poem-column">
+            <button id="again" class="btn-poem-flat">Make me another</button>
+        </div>
+        <div class="poem-column">
+            <button id="clipboard" class="btn-poem-flat">Copy to clipboard</button>
+        </div>
+        <div class="poem-column">
+            <button id="reset" class="btn-poem-flat">Go back</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

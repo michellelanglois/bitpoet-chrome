@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 600px;
+    height: 550px;
+    text-align: center;
+    font-family: "Monaco", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.popup-default {
+    background: #FFECEB;
+    width: 100%;
+    height: 100%;
+    color: #101357;
+    padding: 20px;
+}
+
+.popup-header {
+    border-bottom: 1px solid #101357;
+    font-weight: bold;
+    height: 30%;
+}
+
+.popup-text {
+    height: 30%;
+    padding: 20px;
+}
+
+.popup-buttons {
+    display: flex;
+    height: 40%;
+}
+
+.popup-buttons .default-column {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+}
+
+.btn-flat {
+    background: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    width: 90%;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Monaco", monospace;
+}
+
+.btn-flat:hover {
+    text-decoration: none;
+    transition: padding 0.8s linear;
+}
+
+.btn-flat:focus {
+    outline-color: #101357;
+    outline-width: 2px;
+}
+
+#free {
+    border: 1px solid #fb9b08;
+    color: #fb9b08;
+}
+
+#free:hover {
+    color: #FFECEB;
+    background: #fb9b08;
+}
+
+#haiku {
+    border: 1px solid #00a0a0;
+    color: #00a0a0;
+}
+
+#haiku:hover {
+    color: #FFECEB;
+    background: #00a0a0;
+}
+
+#limerick {
+    border: 1px solid #007f4f;
+    color: #007f4f;
+}
+
+#limerick:hover {
+    color: #FFECEB;
+    background: #007f4f;
+}
+
+.popup-poem {
+    background: #00a0a0;
+    width: 100%;
+    height: 100%;
+    color: #FFECEB;
+    padding: 20px;
+    text-align: left;
+}
+
+.poem-header {
+    border-bottom: 1px solid #34495E;
+    font-weight: bold;
+    height: 20%;
+}
+
+.poem-text {
+    height: 60%;
+    padding: 20px;
+}
+
+.poem-buttons {
+    display: flex;
+    height: 20%;
+}
+
+.poem-buttons .poem-column {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+}
+
+.btn-poem-flat {
+    background: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Monaco", monospace;
+    border: 1px solid #101357;
+    color: #101357;
+}
+
+.btn-poem-flat:hover {
+    text-decoration: none;
+    color: #FFECEB;
+    background: #101357;
+    transition: padding 0.8s linear;
+}
+
+.btn-poem-flat:focus {
+    outline-color: #FFECEB;
+    outline-width: 2px;
+}
+
+.clear {
+    clear: both;
+}
